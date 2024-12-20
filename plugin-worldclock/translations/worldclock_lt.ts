@@ -179,7 +179,7 @@
     </message>
     <message>
         <location filename="../lxqtworldclockconfiguration.ui" line="377"/>
-        <source>&amp;Customise ...</source>
+        <source>&amp;Customize ...</source>
         <translation>&amp;Tinkinti ...</translation>
     </message>
     <message>
@@ -220,7 +220,7 @@
     <message>
         <location filename="../lxqtworldclockconfiguration.ui" line="518"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; Middle-click the clock to view the time and date for all configured timezones.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Pastaba:&lt;/b&gt; Spustelėkite viduriniuoju pelės mygtuku ant laikrodžio, kad pamatytumėte visų sukonfigūruotų laiko juostų datą ir laiką.</translation>
     </message>
     <message>
         <location filename="../lxqtworldclockconfiguration.ui" line="529"/>

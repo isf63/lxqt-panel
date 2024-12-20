@@ -4,7 +4,7 @@
 <context>
     <name>LXQtTaskBar</name>
     <message>
-        <location filename="../lxqttaskbar.cpp" line="636"/>
+        <location filename="../lxqttaskbar.cpp" line="649"/>
         <source>Activate task %1</source>
         <translation>Activar la prètzfach %1</translation>
     </message>
@@ -24,7 +24,7 @@
     <message>
         <location filename="../lxqttaskbutton.cpp" line="583"/>
         <source>&amp;All Desktops</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Totes los burèus</translation>
     </message>
     <message>
         <location filename="../lxqttaskbutton.cpp" line="593"/>
@@ -74,7 +74,7 @@
     <message>
         <location filename="../lxqttaskbutton.cpp" line="662"/>
         <source>&amp;Restore</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Restaurar</translation>
     </message>
     <message>
         <location filename="../lxqttaskbutton.cpp" line="670"/>
@@ -104,7 +104,7 @@
     <message>
         <location filename="../lxqttaskbutton.cpp" line="705"/>
         <source>&amp;Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Normal</translation>
     </message>
     <message>
         <location filename="../lxqttaskbutton.cpp" line="710"/>
@@ -114,7 +114,7 @@
     <message>
         <location filename="../lxqttaskbutton.cpp" line="717"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tampar</translation>
     </message>
 </context>
 <context>
@@ -122,7 +122,7 @@
     <message>
         <location filename="../lxqttaskgroup.cpp" line="84"/>
         <source>Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Grop</translation>
     </message>
     <message>
         <location filename="../lxqttaskgroup.cpp" line="86"/>
@@ -140,7 +140,7 @@
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="20"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>General</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="43"/>
@@ -168,6 +168,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../lxqttaskbarconfiguration.ui" line="254"/>
+        <location filename="../lxqttaskbarconfiguration.ui" line="264"/>
+        <source>Comma separated list of window classes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../lxqttaskbarconfiguration.ui" line="257"/>
+        <source>Exclude from taskbar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../lxqttaskbarconfiguration.cpp" line="51"/>
         <source>Cycle windows on wheel scrolling</source>
         <translation type="unfinished"></translation>
@@ -185,7 +196,7 @@
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="169"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Aparéncia</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="178"/>
@@ -277,7 +288,7 @@
     <message>
         <location filename="../lxqttaskbarconfiguration.cpp" line="60"/>
         <source>Current</source>
-        <translation type="unfinished"></translation>
+        <translation>Actual</translation>
     </message>
 </context>
 </TS>

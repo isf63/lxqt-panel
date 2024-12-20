@@ -4,7 +4,7 @@
 <context>
     <name>LXQtTaskBar</name>
     <message>
-        <location filename="../lxqttaskbar.cpp" line="636"/>
+        <location filename="../lxqttaskbar.cpp" line="649"/>
         <source>Activate task %1</source>
         <translation>Aktiver handling %1</translation>
     </message>
@@ -168,6 +168,17 @@
         <translation>Lukk ved midt-klikk</translation>
     </message>
     <message>
+        <location filename="../lxqttaskbarconfiguration.ui" line="254"/>
+        <location filename="../lxqttaskbarconfiguration.ui" line="264"/>
+        <source>Comma separated list of window classes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../lxqttaskbarconfiguration.ui" line="257"/>
+        <source>Exclude from taskbar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../lxqttaskbarconfiguration.cpp" line="51"/>
         <source>Cycle windows on wheel scrolling</source>
         <translation>Skift vindu ved rulling med mushjulet</translation>
@@ -217,7 +228,7 @@
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="162"/>
         <source>Put buttons of the same class next to each other</source>
-        <translation>Putt knapper av samme tyoe ved siden av hverandre</translation>
+        <translation>Plasser knapper av samme klasse ved siden av hverandre</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="214"/>
@@ -232,17 +243,17 @@
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="247"/>
         <source>Use icons by WindowClass, if available</source>
-        <translation>Bruk symboler fra WindowClass, hvis tilgjengelig</translation>
+        <translation>Bruk ikoner fra WindowClass, hvis tilgjengelig</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.cpp" line="46"/>
         <source>Icon and text</source>
-        <translation>Symbol og tekst</translation>
+        <translation>Ikon og tekst</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.cpp" line="47"/>
         <source>Only icon</source>
-        <translation>Bare symbol</translation>
+        <translation>Kun ikon</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.cpp" line="48"/>

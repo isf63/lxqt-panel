@@ -56,7 +56,7 @@
     <name>ConfigPlacement</name>
     <message>
         <location filename="../config/configplacement.ui" line="20"/>
-        <source>Configure placement</source>
+        <source>Configure Placement</source>
         <translation>Konfigurera placering</translation>
     </message>
     <message>
@@ -377,45 +377,45 @@ Färgade ikoner baserad på widgetstil (palett)</translation>
 <context>
     <name>LXQtPanel</name>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1334"/>
-        <location filename="../lxqtpanel.cpp" line="1360"/>
+        <location filename="../lxqtpanel.cpp" line="1419"/>
+        <location filename="../lxqtpanel.cpp" line="1445"/>
         <source>Panel</source>
         <translation>Panel</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1363"/>
+        <location filename="../lxqtpanel.cpp" line="1448"/>
         <source>Configure Panel</source>
         <translation>Konfigurera Panel</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1368"/>
+        <location filename="../lxqtpanel.cpp" line="1453"/>
         <source>Manage Widgets</source>
         <translation>Hantera widgets</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1374"/>
+        <location filename="../lxqtpanel.cpp" line="1459"/>
         <source>Add New Panel</source>
         <translation>Lägg till ny Panel</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1381"/>
+        <location filename="../lxqtpanel.cpp" line="1466"/>
         <source>Remove Panel</source>
         <comment>Menu Item</comment>
         <translation>Ta bort Panel</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1386"/>
+        <location filename="../lxqtpanel.cpp" line="1471"/>
         <source>Lock This Panel</source>
         <translation>Lås denna panel</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1549"/>
+        <location filename="../lxqtpanel.cpp" line="1634"/>
         <source>Remove Panel</source>
         <comment>Dialog Title</comment>
         <translation>Ta bort panel</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1550"/>
+        <location filename="../lxqtpanel.cpp" line="1635"/>
         <source>Removing a panel can not be undone.
 Do you want to remove this panel?</source>
         <translation>Att ta bort en panel kan inte ångras.

@@ -56,7 +56,7 @@
     <name>ConfigPlacement</name>
     <message>
         <location filename="../config/configplacement.ui" line="20"/>
-        <source>Configure placement</source>
+        <source>Configure Placement</source>
         <translation>Plasseringsvalg</translation>
     </message>
     <message>
@@ -98,7 +98,7 @@
     <message>
         <location filename="../config/configplacement.ui" line="166"/>
         <source>Icon size:</source>
-        <translation>Symbolstørrelse:</translation>
+        <translation>Ikonstørrelse:</translation>
     </message>
     <message>
         <location filename="../config/configplacement.ui" line="173"/>
@@ -337,24 +337,24 @@ You might also want to disable:
 LXQt Appearance Configuration →
 Icons Theme →
 Colorize icons based on widget style (palette)</source>
-        <translation>En delvis fiks for widget-stiler som ikke
-kan gi et eget tema til panelet.
+        <translation>En delvis løsning for widget-stiler som
+ikke kan gi et separat tema til panelet.
 
-Du ønsker kanskje også å skru av:
+Du ønsker kanskje også å slå av:
 
 LXQt Utseendeinnstillinger →
-Symboltema →
-Fargelegg symboler basert på widget-stil (pallett)</translation>
+Ikontema →
+Fargelegg ikoner basert på widget-stil (palett)</translation>
     </message>
     <message>
         <location filename="../config/configstyling.ui" line="266"/>
         <source>Override icon &amp;theme</source>
-        <translation>Overkjør symbo&amp;ltema</translation>
+        <translation>Overstyr ikon&amp;tema</translation>
     </message>
     <message>
         <location filename="../config/configstyling.ui" line="281"/>
         <source>Icon theme for panels:</source>
-        <translation>Symboltema for paneler:</translation>
+        <translation>Ikontema for paneler:</translation>
     </message>
     <message>
         <location filename="../config/configstyling.cpp" line="189"/>
@@ -376,45 +376,45 @@ Fargelegg symboler basert på widget-stil (pallett)</translation>
 <context>
     <name>LXQtPanel</name>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1334"/>
-        <location filename="../lxqtpanel.cpp" line="1360"/>
+        <location filename="../lxqtpanel.cpp" line="1419"/>
+        <location filename="../lxqtpanel.cpp" line="1445"/>
         <source>Panel</source>
         <translation>Panelet</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1363"/>
+        <location filename="../lxqtpanel.cpp" line="1448"/>
         <source>Configure Panel</source>
         <translation>Konfigurer panelet</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1368"/>
+        <location filename="../lxqtpanel.cpp" line="1453"/>
         <source>Manage Widgets</source>
         <translation>Håndter moduler</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1374"/>
+        <location filename="../lxqtpanel.cpp" line="1459"/>
         <source>Add New Panel</source>
         <translation>Legg til nytt panel</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1381"/>
+        <location filename="../lxqtpanel.cpp" line="1466"/>
         <source>Remove Panel</source>
         <comment>Menu Item</comment>
         <translation>Fjern panel</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1386"/>
+        <location filename="../lxqtpanel.cpp" line="1471"/>
         <source>Lock This Panel</source>
         <translation>Lås dette panelet</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1549"/>
+        <location filename="../lxqtpanel.cpp" line="1634"/>
         <source>Remove Panel</source>
         <comment>Dialog Title</comment>
         <translation>Fjern panel</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1550"/>
+        <location filename="../lxqtpanel.cpp" line="1635"/>
         <source>Removing a panel can not be undone.
 Do you want to remove this panel?</source>
         <translation>Å fjerne panelet kan ikke omgjøres.

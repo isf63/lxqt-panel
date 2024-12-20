@@ -500,10 +500,16 @@ void LXQtWMBackend_KWinWayland::refreshIconGeometry(WId windowId, const QRect &g
 
 bool LXQtWMBackend_KWinWayland::isAreaOverlapped(const QRect &area) const
 {
+    int d;
     for(auto &window : std::as_const(windows))
     {
-        if(window->geometry.intersects(area))
+        if(!window->wasUnmapped
+           && ((d = getWindowWorkspace(window->getWindowId())) == getCurrentWorkspace() || d == onAllWorkspacesEnum())
+           && !window->windowState.testFlag(LXQtTaskBarPlasmaWindow::state::state_minimized)
+           && window->geometry.intersects(area))
+        {
             return true;
+        }
     }
     return false;
 }
@@ -620,20 +626,13 @@ void LXQtWMBackend_KWinWayland::addWindow(LXQtTaskBarPlasmaWindow *window)
                 emit activeWindowChanged(activeWindow->getWindowId());
             }
         }
-        else
+#if (QT_VERSION >= QT_VERSION_CHECK(6,8,0))
+        else if (activeWindow == effectiveWindow)
         {
-            // NOTE: LXQtTaskGroup does not handle well null active window
-            // This  would break minimize on click functionality.
-            // Since window is deactivated because another window became active,
-            // we pretend to still be active until we receive signal from newly active
-            // window which will register itself and emit activeWindowChanged() as above
-
-            // if (activeWindow == effectiveWindow)
-            // {
-            //     activeWindow = nullptr;
-            //     emit activeWindowChanged(0);
-            // }
+            activeWindow = nullptr;
+            emit activeWindowChanged(0);
         }
+#endif
     });
 
     connect(window, &LXQtTaskBarPlasmaWindow::parentWindowChanged, this, [window, this] {

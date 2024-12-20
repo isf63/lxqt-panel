@@ -58,6 +58,9 @@ LXQtWMBackendX11::LXQtWMBackendX11(QObject *parent)
 
     connect(KX11Extras::self(), &KX11Extras::numberOfDesktopsChanged, this, &ILXQtAbstractWMInterface::workspacesCountChanged);
     connect(KX11Extras::self(), &KX11Extras::currentDesktopChanged, this, &ILXQtAbstractWMInterface::currentWorkspaceChanged);
+    connect(KX11Extras::self(), &KX11Extras::desktopNamesChanged, this, [this]() {
+        emit workspaceNameChanged(-1); // without specifying an index
+    });
 
     connect(KX11Extras::self(), &KX11Extras::activeWindowChanged,   this, &ILXQtAbstractWMInterface::activeWindowChanged);
 }
@@ -284,7 +287,6 @@ bool LXQtWMBackendX11::reloadWindows()
         }
     }
 
-    //TODO: refreshPlaceholderVisibility()
     emit reloaded();
 
     return true;
@@ -550,6 +552,11 @@ void LXQtWMBackendX11::moveApplicationToPrevNextMonitor(WId windowId, bool next,
             }
         }
     }
+}
+
+int LXQtWMBackendX11::onAllWorkspacesEnum() const
+{
+    return NET::OnAllDesktops;
 }
 
 bool LXQtWMBackendX11::isWindowOnScreen(QScreen *screen, WId windowId) const

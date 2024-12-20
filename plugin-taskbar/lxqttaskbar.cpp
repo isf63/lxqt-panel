@@ -248,6 +248,8 @@ void LXQtTaskBar::groupBecomeEmptySlot()
  ************************************************/
 void LXQtTaskBar::addWindow(WId window)
 {
+    if (mExcludedList.contains(mBackend->getWindowClass(window), Qt::CaseInsensitive))
+        return;
     // If grouping disabled group behaves like regular button
     const QString group_id = mGroupingEnabled ? mBackend->getWindowClass(window) : QString::number(window);
 
@@ -296,7 +298,7 @@ void LXQtTaskBar::addWindow(WId window)
                 LXQtTaskGroup * current_group = qobject_cast<LXQtTaskGroup*>(mLayout->itemAt(i)->widget());
                 if (nullptr != current_group)
                 {
-                    const QString current_class = mBackend->getWindowClass(current_group->groupName().toUInt());
+                    const QString current_class = mBackend->getWindowClass(current_group->groupName().toULong());
                     if(current_class == window_class)
                     {
                         dst_index = i + 1;
@@ -382,7 +384,7 @@ void LXQtTaskBar::refreshPlaceholderVisibility()
     bool haveVisibleWindow = false;
     for (auto i = mKnownWindows.cbegin(), i_e = mKnownWindows.cend(); i_e != i; ++i)
     {
-        if ((*i)->isVisible())
+        if ((*i)->isVisibleTo(this))
         {
             haveVisibleWindow = true;
             break;
@@ -447,6 +449,17 @@ void LXQtTaskBar::settingsChanged()
     mIconByClass = mPlugin->settings()->value(QStringLiteral("iconByClass"), false).toBool();
     mWheelEventsAction = mPlugin->settings()->value(QStringLiteral("wheelEventsAction"), 1).toInt();
     mWheelDeltaThreshold = mPlugin->settings()->value(QStringLiteral("wheelDeltaThreshold"), 300).toInt();
+
+    mExcludedList = mPlugin->settings()->value(QStringLiteral("excludedList")).toString()
+                    .split(QRegularExpression(QStringLiteral("\\s*,\\s*")), Qt::SkipEmptyParts);
+    const auto wins = mBackend->getCurrentWindows();
+    for(WId win : wins)
+    {
+        if (mExcludedList.contains(mBackend->getWindowClass(win), Qt::CaseInsensitive))
+            onWindowRemoved(win);
+        else
+            onWindowAdded(win);
+    }
 
     // Delete all groups if grouping or ungrouped next to existing feature toggled and start over
     if (groupingEnabledOld != mGroupingEnabled || ungroupedNextToExistingOld != mUngroupedNextToExisting)

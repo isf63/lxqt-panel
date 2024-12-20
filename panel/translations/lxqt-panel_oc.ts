@@ -56,7 +56,7 @@
     <name>ConfigPlacement</name>
     <message>
         <location filename="../config/configplacement.ui" line="20"/>
-        <source>Configure placement</source>
+        <source>Configure Placement</source>
         <translation>Configurar l’emplaçament</translation>
     </message>
     <message>
@@ -282,12 +282,12 @@
     <message>
         <location filename="../config/configpluginswidget.ui" line="161"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Suprimir</translation>
     </message>
     <message>
         <location filename="../config/configpluginswidget.ui" line="182"/>
         <source>Configure</source>
-        <translation type="unfinished"></translation>
+        <translation>Configurar</translation>
     </message>
 </context>
 <context>
@@ -295,27 +295,27 @@
     <message>
         <location filename="../config/configstyling.ui" line="20"/>
         <source>Configure Styling</source>
-        <translation type="unfinished"></translation>
+        <translation>Configurar l’estil</translation>
     </message>
     <message>
         <location filename="../config/configstyling.ui" line="44"/>
         <source>Custom styling</source>
-        <translation type="unfinished"></translation>
+        <translation>Estil personalizat</translation>
     </message>
     <message>
         <location filename="../config/configstyling.ui" line="65"/>
         <source>Font color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Color de polissa :</translation>
     </message>
     <message>
         <location filename="../config/configstyling.ui" line="105"/>
         <source>Background color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Color de fons :</translation>
     </message>
     <message>
         <location filename="../config/configstyling.ui" line="144"/>
         <source>Background opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opacitat del fons :</translation>
     </message>
     <message>
         <location filename="../config/configstyling.ui" line="176"/>
@@ -325,7 +325,7 @@
     <message>
         <location filename="../config/configstyling.ui" line="204"/>
         <source>Background image:</source>
-        <translation type="unfinished"></translation>
+        <translation>Imatge de fons :</translation>
     </message>
     <message>
         <location filename="../config/configstyling.ui" line="256"/>
@@ -353,61 +353,61 @@ Colorize icons based on widget style (palette)</source>
         <location filename="../config/configstyling.cpp" line="189"/>
         <location filename="../config/configstyling.cpp" line="205"/>
         <source>Pick color</source>
-        <translation type="unfinished"></translation>
+        <translation>Causir una color</translation>
     </message>
     <message>
         <location filename="../config/configstyling.cpp" line="223"/>
         <source>Pick image</source>
-        <translation type="unfinished"></translation>
+        <translation>Causir un imatge</translation>
     </message>
     <message>
         <location filename="../config/configstyling.cpp" line="223"/>
         <source>Images (*.png *.gif *.jpg *.svg)</source>
-        <translation type="unfinished"></translation>
+        <translation>Imatges (*.png *.gif *.jpg *.svg)</translation>
     </message>
 </context>
 <context>
     <name>LXQtPanel</name>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1334"/>
-        <location filename="../lxqtpanel.cpp" line="1360"/>
+        <location filename="../lxqtpanel.cpp" line="1419"/>
+        <location filename="../lxqtpanel.cpp" line="1445"/>
         <source>Panel</source>
         <translation>Panèl</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1363"/>
+        <location filename="../lxqtpanel.cpp" line="1448"/>
         <source>Configure Panel</source>
-        <translation type="unfinished">Configurar lo tablèu de bòrd</translation>
+        <translation>Configurar lo tablèu de bòrd</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1368"/>
+        <location filename="../lxqtpanel.cpp" line="1453"/>
         <source>Manage Widgets</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1374"/>
+        <location filename="../lxqtpanel.cpp" line="1459"/>
         <source>Add New Panel</source>
-        <translation type="unfinished"></translation>
+        <translation>Apondre un panèl novèl</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1381"/>
+        <location filename="../lxqtpanel.cpp" line="1466"/>
         <source>Remove Panel</source>
         <comment>Menu Item</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1386"/>
+        <location filename="../lxqtpanel.cpp" line="1471"/>
         <source>Lock This Panel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1549"/>
+        <location filename="../lxqtpanel.cpp" line="1634"/>
         <source>Remove Panel</source>
         <comment>Dialog Title</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1550"/>
+        <location filename="../lxqtpanel.cpp" line="1635"/>
         <source>Removing a panel can not be undone.
 Do you want to remove this panel?</source>
         <translation type="unfinished"></translation>
@@ -428,7 +428,7 @@ Do you want to remove this panel?</source>
     <message>
         <location filename="../plugin.cpp" line="458"/>
         <source>Remove &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Suprimir « %1 »</translation>
     </message>
 </context>
 <context>
@@ -436,12 +436,12 @@ Do you want to remove this panel?</source>
     <message>
         <location filename="../lxqtpanelapplication.cpp" line="340"/>
         <source>Use alternate configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizar un fichièr de configuracion alternatiu.</translation>
     </message>
     <message>
         <location filename="../lxqtpanelapplication.cpp" line="341"/>
         <source>Configuration file</source>
-        <translation type="unfinished"></translation>
+        <translation>Fichièr de configuracion</translation>
     </message>
 </context>
 </TS>

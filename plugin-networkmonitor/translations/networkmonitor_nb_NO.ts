@@ -53,7 +53,7 @@
     <name>LXQtNetworkMonitorConfiguration</name>
     <message>
         <location filename="../lxqtnetworkmonitorconfiguration.ui" line="14"/>
-        <source>Network Monitor settings</source>
+        <source>Network Monitor Settings</source>
         <translation>Nettverkovervåkingsinnstillinger</translation>
     </message>
     <message>
@@ -89,7 +89,7 @@
     <message>
         <location filename="../lxqtnetworkmonitorconfiguration.ui" line="95"/>
         <source>Icon</source>
-        <translation>Symbol</translation>
+        <translation>Ikon</translation>
     </message>
 </context>
 </TS>

@@ -56,7 +56,7 @@
     <name>ConfigPlacement</name>
     <message>
         <location filename="../config/configplacement.ui" line="20"/>
-        <source>Configure placement</source>
+        <source>Configure Placement</source>
         <translation>Διαμόρφωση της τοποθεσίας</translation>
     </message>
     <message>
@@ -320,7 +320,7 @@
     <message>
         <location filename="../config/configstyling.ui" line="176"/>
         <source>&lt;small&gt;Compositing is required for panel transparency.&lt;/small&gt;</source>
-        <translation>&lt;small&gt;Για την διαφάνεια του πίνακα απαιτείται το χαρακτηριστικό γραφικών σύνθεσης.&lt;/small&gt;</translation>
+        <translation>&lt;small&gt;Για την διαφάνεια του πίνακα απαιτείται το χαρακτηριστικό σύνθεσης γραφικών.&lt;/small&gt;</translation>
     </message>
     <message>
         <location filename="../config/configstyling.ui" line="204"/>
@@ -378,45 +378,45 @@ LXQT Διαμόρφωση εμφάνισης→
 <context>
     <name>LXQtPanel</name>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1334"/>
-        <location filename="../lxqtpanel.cpp" line="1360"/>
+        <location filename="../lxqtpanel.cpp" line="1419"/>
+        <location filename="../lxqtpanel.cpp" line="1445"/>
         <source>Panel</source>
         <translation>Πίνακας</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1363"/>
+        <location filename="../lxqtpanel.cpp" line="1448"/>
         <source>Configure Panel</source>
         <translation>Διαμόρφωση του πίνακα</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1368"/>
+        <location filename="../lxqtpanel.cpp" line="1453"/>
         <source>Manage Widgets</source>
         <translation>Διαχείριση των γραφικών συστατικών</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1374"/>
+        <location filename="../lxqtpanel.cpp" line="1459"/>
         <source>Add New Panel</source>
         <translation>Προσθήκη νέου πίνακα</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1381"/>
+        <location filename="../lxqtpanel.cpp" line="1466"/>
         <source>Remove Panel</source>
         <comment>Menu Item</comment>
         <translation>Αφαίρεση πίνακα</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1386"/>
+        <location filename="../lxqtpanel.cpp" line="1471"/>
         <source>Lock This Panel</source>
         <translation>Κλείδωμα του πίνακα</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1549"/>
+        <location filename="../lxqtpanel.cpp" line="1634"/>
         <source>Remove Panel</source>
         <comment>Dialog Title</comment>
         <translation>Αφαίρεση πίνακα</translation>
     </message>
     <message>
-        <location filename="../lxqtpanel.cpp" line="1550"/>
+        <location filename="../lxqtpanel.cpp" line="1635"/>
         <source>Removing a panel can not be undone.
 Do you want to remove this panel?</source>
         <translation>Η αφαίρεση ενός πίνακα δεν μπορεί να αναιρεθεί.

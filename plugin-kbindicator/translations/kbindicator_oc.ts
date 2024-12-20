@@ -54,13 +54,13 @@
     <name>KbdStateConfig</name>
     <message>
         <location filename="../src/kbdstateconfig.ui" line="14"/>
-        <source>Keyboard state settings</source>
+        <source>Keyboard State Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/kbdstateconfig.ui" line="20"/>
         <source>Lock Indicators</source>
-        <translation type="unfinished"></translation>
+        <translation>Indicador de verrolhatge</translation>
     </message>
     <message>
         <location filename="../src/kbdstateconfig.ui" line="26"/>
@@ -110,7 +110,7 @@
     <message>
         <location filename="../src/kbdstateconfig.ui" line="79"/>
         <source>Window</source>
-        <translation type="unfinished"></translation>
+        <translation>Fenèstra</translation>
     </message>
     <message>
         <location filename="../src/kbdstateconfig.ui" line="89"/>

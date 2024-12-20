@@ -581,8 +581,8 @@ void LXQtTaskButton::contextMenuEvent(QContextMenuEvent* event)
         deskMenu->setEnabled(mBackend->supportsAction(mWindow, LXQtTaskBarBackendAction::MoveToDesktop));
 
         a = deskMenu->addAction(tr("&All Desktops"));
-        a->setData(int(LXQtTaskBarWorkspace::ShowOnAll));
-        a->setEnabled(winDesk != int(LXQtTaskBarWorkspace::ShowOnAll));
+        a->setData(mBackend->onAllWorkspacesEnum());
+        a->setEnabled(winDesk != mBackend->onAllWorkspacesEnum());
         connect(a, &QAction::triggered, this, &LXQtTaskButton::moveApplicationToDesktop);
         deskMenu->addSeparator();
 
@@ -742,7 +742,8 @@ void LXQtTaskButton::setUrgencyHint(bool set)
  ************************************************/
 bool LXQtTaskButton::isOnDesktop(int desktop) const
 {
-    return mBackend->getWindowWorkspace(mWindow) == desktop;
+    int d = mBackend->getWindowWorkspace(mWindow);
+    return d == desktop || d == mBackend->onAllWorkspacesEnum();
 }
 
 bool LXQtTaskButton::isOnCurrentScreen() const
